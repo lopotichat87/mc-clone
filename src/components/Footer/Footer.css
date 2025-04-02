@@ -1,0 +1,253 @@
+#container {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#container #footer {
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+#container #footer div {
+    text-align: left;
+}
+
+._cell {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+
+#footer {
+    position: relative;
+    min-height: 76px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #000;
+    background: linear-gradient(180deg, #F9F9F9 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+._table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.wrp-inner-footer {
+    width: 100%;
+    padding: 0 147px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.titlewebsite,
+.line-separeted,
+.address-website {
+    display: inline-block;
+}
+
+.line-separeted {
+    margin: 0 8px;
+}
+
+.privacy-footer-label {
+    cursor: pointer;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+#lang_sel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lang-title {
+    margin-right: 12px;
+}
+
+#lang_sel a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 12px;
+    letter-spacing: 0.04em;
+}
+
+#lang_sel a:last-child {
+    margin-right: 0;
+}
+
+#lang_sel a.active {
+    font-weight: 400;
+}
+
+@media (max-width: 1599px) {
+    .wrp-inner-footer {
+        padding: 0 80px;
+    }
+
+    #footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .wrp-inner-footer {
+        padding: 0 32px;
+    }
+}
+
+@media (max-width: 1023px) {
+    #footer {
+        min-height: 222px;
+    }
+
+    .wrp-inner-footer {
+        padding: 0px 16px 38px;
+        display: block;
+    }
+
+    .footer-info {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 14px 0 10px;
+        border-top: 1px solid #E4E4E4;
+        border-bottom: 1px solid #E4E4E4;
+    }
+
+    .footer-info>* {
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: 1px solid #E4E4E4;
+    }
+
+    .footer-info>*:last-child {
+        border-bottom: none;
+    }
+
+    .line-separeted {
+        display: none;
+    }
+
+    .privacy-footer-label {
+        margin-left: 0;
+        padding: 14px 0;
+    }
+
+    #lang_sel {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 14px 0;
+        border-bottom: 1px solid #E4E4E4;
+    }
+}
+
+.footer {
+    background: #fff;
+    padding: 20px 16px;
+}
+
+.footer-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.footer-address {
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-languages {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.language-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.language-list {
+    display: flex;
+    gap: 12px;
+}
+
+.language-item {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width: 1023px) {
+    .footer {
+        padding: 16px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    .footer-languages {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        margin-top: 16px;
+    }
+
+    .language-list {
+        gap: 12px;
+    }
+}

@@ -1,0 +1,22 @@
+.authenticity {
+    text-align: center;
+    margin: 130px 0;
+}
+
+.auth-status {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.auth-text {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+
+.product-name {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
