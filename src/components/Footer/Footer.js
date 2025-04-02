@@ -13,22 +13,29 @@ const Footer = () => {
                                 <span className="line-separeted">-</span>
                                 <span className="address-website">Via Stendhal 47, 20144 Milano</span>
                                 <span className="privacy-footer-label">
-                                    <span id="pripol_footer_privacy">Privacy Policy</span>
+                                    <a href="https://www.moncler.com/fr-fr/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
+                                        <span id="pripol_footer_privacy">Politique de confidentialité</span>
+                                    </a>
                                 </span>
                                 <span className="privacy-footer-label">
-                                    <span id="pripol_footer_cookie">Cookie Policy</span>
+                                    <a href="https://www.moncler.com/fr-fr/legal/cookie-policy" target="_blank" rel="noopener noreferrer">
+                                        <span id="pripol_footer_cookie">Politique des cookies</span>
+                                    </a>
                                 </span>
                                 <span className="privacy-footer-label">
-                                    <span id="pripol_footer_settings_cookie">Cookie settings</span>
+                                    <a href="https://www.moncler.com/fr-fr/legal/cookie-settings" target="_blank" rel="noopener noreferrer">
+                                        <span id="pripol_footer_settings_cookie">Paramètres des cookies</span>
+                                    </a>
                                 </span>
                             </div>
-                            <div id="lang_sel" data-lang="US">
-                                <div className="lang-title">LANGUAGE</div>
-                                <a href="locale/US" className="active">English</a>
-                                <a href="locale/IT">Italiano</a>
-                                <a href="locale/JP">日本語</a>
-                                <a href="https://code.moncler.cn/locale/CN">中文</a>
-                                <a href="locale/KR">한국어</a>
+                            <div id="lang_sel" data-lang="FR">
+                                <div className="lang-title">LANGUE</div>
+                                <a href="https://www.moncler.com/fr-fr" className="active">Français</a>
+                                <a href="https://www.moncler.com/en-us">English</a>
+                                <a href="https://www.moncler.com/it-it">Italiano</a>
+                                <a href="https://www.moncler.com/jp-ja">日本語</a>
+                                <a href="https://www.moncler.com/cn-zh">中文</a>
+                                <a href="https://www.moncler.com/kr-ko">한국어</a>
                             </div>
                         </div>
                     </div>
