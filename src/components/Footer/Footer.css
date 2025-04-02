@@ -1,5 +1,4 @@
 #container {
-
     display: flex;
     flex-direction: column;
 }
@@ -62,9 +61,13 @@
 }
 
 .privacy-footer-label {
-    cursor: pointer;
     margin-left: 25px;
     text-transform: uppercase;
+}
+
+.privacy-footer-label a {
+    color: #000;
+    text-decoration: none;
 }
 
 #lang_sel {
