@@ -74,6 +74,7 @@
 @media screen and (max-width: 768px) {
     .steps {
         margin-top: -99px;
+        padding: 20px;
     }
 
     .steps-container {
